@@ -1,0 +1,527 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'express' ]
+info using npm@1.0.93
+info using node@v0.4.9
+verbose config file /home/sebastian/.npmrc
+verbose config file /usr/local/etc/npmrc
+silly testEngine { name: 'application-name',
+silly testEngine   version: '0.0.1',
+silly testEngine   private: true,
+silly testEngine   dependencies: { express: '2.4.6', jade: '>= 0.0.1' },
+silly testEngine   _id: 'application-name@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.93',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/sebastian/ArbeitsDoku/Node/aceEdit/package.json
+verbose loadDefaults application-name@0.0.1
+verbose from cache /home/sebastian/ArbeitsDoku/Node/aceEdit/package.json
+verbose into /home/sebastian/ArbeitsDoku/Node/aceEdit [ 'express' ]
+verbose cache add express@2.4.6
+verbose cache add [ 'express@2.4.6', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'express@2.4.6',
+silly cache add: name, spec, args   [ 'express@2.4.6', null ] ]
+verbose parsed url { pathname: 'express@2.4.6', href: 'express@2.4.6' }
+silly cache add: name, spec, args [ 'express', '2.4.6', [ 'express', '2.4.6' ] ]
+verbose parsed url { pathname: '2.4.6', href: '2.4.6' }
+info addNamed [ 'express', '2.4.6' ]
+verbose addNamed [ '2.4.6', '2.4.6' ]
+verbose GET express/2.4.6
+verbose raw, before any munging express/2.4.6
+verbose url resolving [ 'https://registry.npmjs.org/', './express/2.4.6' ]
+verbose url resolved https://registry.npmjs.org/express/2.4.6
+verbose etag "YXSSSCFZ8D80EWG1FM549TO7"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"YXSSSCFZ8D80EWG1FM549TO7"',
+silly get cb     date: 'Thu, 06 Oct 2011 08:46:13 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag express/2.4.6 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8o-v83.1.8.25-linux-2.6.38-11-generic',
+verbose bin dist   { shasum: 'df8152c5a40bd89ad74ab07e5ef999fac5a00916',
+verbose bin dist     tarball: 'http://registry.npmjs.org/express/-/express-2.4.6.tgz' } ]
+silly testEngine { name: 'express',
+silly testEngine   description: 'Sinatra inspired web development framework',
+silly testEngine   version: '2.4.6',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'TJ Holowaychuk',
+silly testEngine        email: 'tj@vision-media.ca' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly testEngine   dependencies: 
+silly testEngine    { connect: '>= 1.5.2 < 2.0.0',
+silly testEngine      mime: '>= 0.0.1',
+silly testEngine      qs: '>= 0.3.1' },
+silly testEngine   devDependencies: 
+silly testEngine    { 'connect-form': '0.2.1',
+silly testEngine      ejs: '0.4.2',
+silly testEngine      expresso: '0.7.2',
+silly testEngine      hamljs: '0.5.1',
+silly testEngine      jade: '0.11.0',
+silly testEngine      stylus: '0.13.0',
+silly testEngine      should: '0.2.1',
+silly testEngine      'express-messages': '0.0.2',
+silly testEngine      'node-markdown': '>= 0.0.1',
+silly testEngine      'connect-redis': '>= 0.0.1' },
+silly testEngine   keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/visionmedia/express.git' },
+silly testEngine   main: 'index',
+silly testEngine   bin: { express: './bin/express' },
+silly testEngine   scripts: { test: 'make test', prepublish: 'npm prune' },
+silly testEngine   engines: { node: '>= 0.4.1 < 0.5.0' },
+silly testEngine   _id: 'express@2.4.6',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.93',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/sebastian/.npm/express/2.4.6/package/package.json
+verbose loadDefaults express@2.4.6
+silly resolved [ { name: 'express',
+silly resolved     description: 'Sinatra inspired web development framework',
+silly resolved     version: '2.4.6',
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'TJ Holowaychuk',
+silly resolved          email: 'tj@vision-media.ca' },
+silly resolved        { name: 'Aaron Heckmann',
+silly resolved          email: 'aaron.heckmann+github@gmail.com' },
+silly resolved        { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly resolved        { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly resolved     dependencies: 
+silly resolved      { connect: '>= 1.5.2 < 2.0.0',
+silly resolved        mime: '>= 0.0.1',
+silly resolved        qs: '>= 0.3.1' },
+silly resolved     devDependencies: 
+silly resolved      { 'connect-form': '0.2.1',
+silly resolved        ejs: '0.4.2',
+silly resolved        expresso: '0.7.2',
+silly resolved        hamljs: '0.5.1',
+silly resolved        jade: '0.11.0',
+silly resolved        stylus: '0.13.0',
+silly resolved        should: '0.2.1',
+silly resolved        'express-messages': '0.0.2',
+silly resolved        'node-markdown': '>= 0.0.1',
+silly resolved        'connect-redis': '>= 0.0.1' },
+silly resolved     keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/visionmedia/express.git' },
+silly resolved     main: 'index',
+silly resolved     bin: { express: './bin/express' },
+silly resolved     scripts: { test: 'make test', prepublish: 'npm prune' },
+silly resolved     engines: { node: '>= 0.4.1 < 0.5.0' },
+silly resolved     _id: 'express@2.4.6',
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.93',
+silly resolved     _nodeVersion: 'v0.4.9',
+silly resolved     _defaultsLoaded: true } ]
+info into /home/sebastian/ArbeitsDoku/Node/aceEdit express@2.4.6
+info installOne express@2.4.6
+info unbuild /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express
+verbose from cache /home/sebastian/.npm/express/2.4.6/package/package.json
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm'
+verbose mkdir done: /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express
+silly gunzTarPerm modes [ '755', '644' ]
+silly tar out package/Readme.md
+silly tar out package/LICENSE
+silly tar out package/package.json
+silly tar out package/index.js
+silly tar out package/History.md
+silly tar out package/.npmignore
+silly tar out package/Makefile
+silly tar out package/bin/express
+silly tar out package/lib/view.js
+silly tar out package/lib/https.js
+silly tar out package/lib/http.js
+silly tar out package/lib/request.js
+silly tar out package/lib/response.js
+silly tar out package/lib/utils.js
+silly tar out package/lib/express.js
+silly tar out package/lib/router/collection.js
+silly tar out package/lib/router/route.js
+silly tar out package/lib/router/index.js
+silly tar out package/lib/router/methods.js
+silly tar out package/lib/view/view.js
+silly tar out package/lib/view/partial.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/History.md
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/Readme.md
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/package.json
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/index.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/Makefile
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/.npmignore
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/LICENSE
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/bin
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/bin/express
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/request.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/express.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/view.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/https.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/http.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/response.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/utils.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/view
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/view/view.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/view/partial.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/router
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/router/collection.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/router/route.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/router/methods.js
+silly asyncMap in gTP /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package/lib/router/index.js
+verbose gunzed /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package
+verbose rm'ed /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express
+verbose renamed [ '/home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/___express.npm/package',
+verbose renamed   '/home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express' ]
+silly testEngine { name: 'express',
+silly testEngine   description: 'Sinatra inspired web development framework',
+silly testEngine   version: '2.4.6',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'TJ Holowaychuk',
+silly testEngine        email: 'tj@vision-media.ca' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly testEngine   dependencies: 
+silly testEngine    { connect: '>= 1.5.2 < 2.0.0',
+silly testEngine      mime: '>= 0.0.1',
+silly testEngine      qs: '>= 0.3.1' },
+silly testEngine   devDependencies: 
+silly testEngine    { 'connect-form': '0.2.1',
+silly testEngine      ejs: '0.4.2',
+silly testEngine      expresso: '0.7.2',
+silly testEngine      hamljs: '0.5.1',
+silly testEngine      jade: '0.11.0',
+silly testEngine      stylus: '0.13.0',
+silly testEngine      should: '0.2.1',
+silly testEngine      'express-messages': '0.0.2',
+silly testEngine      'node-markdown': '>= 0.0.1',
+silly testEngine      'connect-redis': '>= 0.0.1' },
+silly testEngine   keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/visionmedia/express.git' },
+silly testEngine   main: 'index',
+silly testEngine   bin: { express: './bin/express' },
+silly testEngine   scripts: { test: 'make test', prepublish: 'npm prune' },
+silly testEngine   engines: { node: '>= 0.4.1 < 0.5.0' },
+silly testEngine   _id: 'express@2.4.6',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.93',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express/package.json
+verbose loadDefaults express@2.4.6
+info preinstall express@2.4.6
+verbose from cache /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express/package.json
+verbose into /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express [ 'connect@>= 1.5.2 < 2.0.0',
+verbose into /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express   'mime@>= 0.0.1',
+verbose into /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express   'qs@>= 0.3.1' ]
+verbose cache add connect@>= 1.5.2 < 2.0.0
+verbose cache add [ 'connect@>= 1.5.2 < 2.0.0', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'connect@>= 1.5.2 < 2.0.0',
+silly cache add: name, spec, args   [ 'connect@>= 1.5.2 < 2.0.0', null ] ]
+verbose parsed url { pathname: 'connect@', href: 'connect@' }
+silly cache add: name, spec, args [ 'connect',
+silly cache add: name, spec, args   '>= 1.5.2 < 2.0.0',
+silly cache add: name, spec, args   [ 'connect', '>= 1.5.2 < 2.0.0' ] ]
+verbose parsed url { pathname: '=', href: '=' }
+info addNamed [ 'connect', '>= 1.5.2 < 2.0.0' ]
+verbose addNamed [ null, '>=1.5.2 <2.0.0' ]
+verbose GET connect
+verbose raw, before any munging connect
+verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+verbose url resolved https://registry.npmjs.org/connect
+verbose etag "GAQZAY9T3IYYQ226BSBKW29O"
+verbose cache add mime@>= 0.0.1
+verbose cache add [ 'mime@>= 0.0.1', null ]
+silly cache add: name, spec, args [ undefined,
+silly cache add: name, spec, args   'mime@>= 0.0.1',
+silly cache add: name, spec, args   [ 'mime@>= 0.0.1', null ] ]
+verbose parsed url { pathname: 'mime@', href: 'mime@' }
+silly cache add: name, spec, args [ 'mime', '>= 0.0.1', [ 'mime', '>= 0.0.1' ] ]
+verbose parsed url { pathname: '=', href: '=' }
+info addNamed [ 'mime', '>= 0.0.1' ]
+verbose addNamed [ null, '>=0.0.1' ]
+verbose cache add qs@>= 0.3.1
+verbose cache add [ 'qs@>= 0.3.1', null ]
+silly cache add: name, spec, args [ undefined, 'qs@>= 0.3.1', [ 'qs@>= 0.3.1', null ] ]
+verbose parsed url { pathname: 'qs@', href: 'qs@' }
+silly cache add: name, spec, args [ 'qs', '>= 0.3.1', [ 'qs', '>= 0.3.1' ] ]
+verbose parsed url { pathname: '=', href: '=' }
+info addNamed [ 'qs', '>= 0.3.1' ]
+verbose addNamed [ null, '>=0.3.1' ]
+verbose GET mime
+verbose raw, before any munging mime
+verbose url resolving [ 'https://registry.npmjs.org/', './mime' ]
+verbose url resolved https://registry.npmjs.org/mime
+verbose etag "E0QBW92JEUREOUALXRXCRWTXX"
+verbose GET qs
+verbose raw, before any munging qs
+verbose url resolving [ 'https://registry.npmjs.org/', './qs' ]
+verbose url resolved https://registry.npmjs.org/qs
+verbose etag "7B9FNJC8OB33VWLD9I6AGZ2IC"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"GAQZAY9T3IYYQ226BSBKW29O"',
+silly get cb     date: 'Thu, 06 Oct 2011 08:46:14 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag connect from cache
+verbose GET connect/2.0.0alpha1
+verbose raw, before any munging connect/2.0.0alpha1
+verbose url resolving [ 'https://registry.npmjs.org/',
+verbose url resolving   './connect/2.0.0alpha1' ]
+verbose url resolved https://registry.npmjs.org/connect/2.0.0alpha1
+verbose etag "GAQZAY9T3IYYQ226BSBKW29O"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"E0QBW92JEUREOUALXRXCRWTXX"',
+silly get cb     date: 'Thu, 06 Oct 2011 08:46:14 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag mime from cache
+verbose GET mime/1.2.4
+verbose raw, before any munging mime/1.2.4
+verbose url resolving [ 'https://registry.npmjs.org/', './mime/1.2.4' ]
+verbose url resolved https://registry.npmjs.org/mime/1.2.4
+verbose etag "E0QBW92JEUREOUALXRXCRWTXX"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"7B9FNJC8OB33VWLD9I6AGZ2IC"',
+silly get cb     date: 'Thu, 06 Oct 2011 08:46:15 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag qs from cache
+verbose GET qs/0.3.1
+verbose raw, before any munging qs/0.3.1
+verbose url resolving [ 'https://registry.npmjs.org/', './qs/0.3.1' ]
+verbose url resolved https://registry.npmjs.org/qs/0.3.1
+verbose etag "7B9FNJC8OB33VWLD9I6AGZ2IC"
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"GAQZAY9T3IYYQ226BSBKW29O"',
+silly get cb     date: 'Thu, 06 Oct 2011 08:46:15 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag connect/2.0.0alpha1 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8o-v83.1.8.25-linux-2.6.38-11-generic',
+verbose bin dist   { shasum: '6b84cf337f4c3bc888839b2bc3e6b38b932139a4',
+verbose bin dist     tarball: 'http://registry.npmjs.org/connect/-/connect-2.0.0alpha1.tgz' } ]
+silly testEngine { name: 'connect',
+silly testEngine   version: '2.0.0alpha1',
+silly testEngine   description: 'High performance middleware framework',
+silly testEngine   keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/senchalabs/connect.git' },
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca',
+silly testEngine      url: 'http://tjholowaychuk.com' },
+silly testEngine   dependencies: { qs: '>= 0.3.1', mime: '>= 0.0.1' },
+silly testEngine   devDependencies: { expresso: '0.7.6', koala: '0.1.2', should: '0.2.1' },
+silly testEngine   main: 'index',
+silly testEngine   engines: { node: '>= 0.5.0 < 0.7.0' },
+silly testEngine   _id: 'connect@2.0.0alpha1',
+silly testEngine   _engineSupported: false,
+silly testEngine   _npmVersion: '1.0.93',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/sebastian/.npm/connect/2.0.0alpha1/package/package.json
+verbose loadDefaults connect@2.0.0alpha1
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"E0QBW92JEUREOUALXRXCRWTXX"',
+silly get cb     date: 'Thu, 06 Oct 2011 08:46:16 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag mime/1.2.4 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8o-v83.1.8.25-linux-2.6.38-11-generic',
+verbose bin dist   { shasum: '11b5fdaf29c2509255176b80ad520294f5de92b7',
+verbose bin dist     tarball: 'http://registry.npmjs.org/mime/-/mime-1.2.4.tgz' } ]
+silly testEngine { author: 
+silly testEngine    { name: 'Robert Kieffer',
+silly testEngine      email: 'robert@broofa.com',
+silly testEngine      url: 'http://github.com/broofa' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Benjamin Thomas',
+silly testEngine        email: 'benjamin@benjaminthomas.org',
+silly testEngine        url: 'http://github.com/bentomas' } ],
+silly testEngine   dependencies: {},
+silly testEngine   description: 'A comprehensive library for mime-type mapping',
+silly testEngine   devDependencies: { async_testing: '' },
+silly testEngine   keywords: [ 'util', 'mime' ],
+silly testEngine   main: 'mime.js',
+silly testEngine   name: 'mime',
+silly testEngine   repository: 
+silly testEngine    { url: 'git://github.com/bentomas/node-mime.git',
+silly testEngine      type: 'git' },
+silly testEngine   version: '1.2.4',
+silly testEngine   _id: 'mime@1.2.4',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.93',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/sebastian/.npm/mime/1.2.4/package/package.json
+verbose loadDefaults mime@1.2.4
+silly get cb [ 304,
+silly get cb   { server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"7B9FNJC8OB33VWLD9I6AGZ2IC"',
+silly get cb     date: 'Thu, 06 Oct 2011 08:46:16 GMT',
+silly get cb     'content-length': '0' } ]
+verbose etag qs/0.3.1 from cache
+verbose bin dist [ '0.4-ares1.7.4-ev4.4-openssl0.9.8o-v83.1.8.25-linux-2.6.38-11-generic',
+verbose bin dist   { shasum: 'f40308e1b42669fb61b588aa6f88b5612cc86097',
+verbose bin dist     tarball: 'http://registry.npmjs.org/qs/-/qs-0.3.1.tgz' } ]
+silly testEngine { name: 'qs',
+silly testEngine   description: 'querystring parser',
+silly testEngine   version: '0.3.1',
+silly testEngine   repository: { url: '' },
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca',
+silly testEngine      url: 'http://tjholowaychuk.com' },
+silly testEngine   main: 'index',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _id: 'qs@0.3.1',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.93',
+silly testEngine   _nodeVersion: 'v0.4.9',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /home/sebastian/.npm/qs/0.3.1/package/package.json
+verbose loadDefaults qs@0.3.1
+silly resolved [ { name: 'connect',
+silly resolved     version: '2.0.0alpha1',
+silly resolved     description: 'High performance middleware framework',
+silly resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/senchalabs/connect.git' },
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     dependencies: { qs: '>= 0.3.1', mime: '>= 0.0.1' },
+silly resolved     devDependencies: { expresso: '0.7.6', koala: '0.1.2', should: '0.2.1' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '>= 0.5.0 < 0.7.0' },
+silly resolved     _id: 'connect@2.0.0alpha1',
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.0.93',
+silly resolved     _nodeVersion: 'v0.4.9',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { author: 
+silly resolved      { name: 'Robert Kieffer',
+silly resolved        email: 'robert@broofa.com',
+silly resolved        url: 'http://github.com/broofa' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Benjamin Thomas',
+silly resolved          email: 'benjamin@benjaminthomas.org',
+silly resolved          url: 'http://github.com/bentomas' } ],
+silly resolved     dependencies: {},
+silly resolved     description: 'A comprehensive library for mime-type mapping',
+silly resolved     devDependencies: { async_testing: '' },
+silly resolved     keywords: [ 'util', 'mime' ],
+silly resolved     main: 'mime.js',
+silly resolved     name: 'mime',
+silly resolved     repository: 
+silly resolved      { url: 'git://github.com/bentomas/node-mime.git',
+silly resolved        type: 'git' },
+silly resolved     version: '1.2.4',
+silly resolved     _id: 'mime@1.2.4',
+silly resolved     engines: { node: '*' },
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.93',
+silly resolved     _nodeVersion: 'v0.4.9',
+silly resolved     _defaultsLoaded: true },
+silly resolved   { name: 'qs',
+silly resolved     description: 'querystring parser',
+silly resolved     version: '0.3.1',
+silly resolved     repository: { url: '' },
+silly resolved     author: 
+silly resolved      { name: 'TJ Holowaychuk',
+silly resolved        email: 'tj@vision-media.ca',
+silly resolved        url: 'http://tjholowaychuk.com' },
+silly resolved     main: 'index',
+silly resolved     engines: { node: '*' },
+silly resolved     _id: 'qs@0.3.1',
+silly resolved     dependencies: {},
+silly resolved     devDependencies: {},
+silly resolved     _engineSupported: true,
+silly resolved     _npmVersion: '1.0.93',
+silly resolved     _nodeVersion: 'v0.4.9',
+silly resolved     _defaultsLoaded: true } ]
+info into /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express connect@2.0.0alpha1
+info into /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express mime@1.2.4
+info into /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express qs@0.3.1
+info installOne connect@2.0.0alpha1
+verbose installOne cb connect@2.0.0alpha1
+verbose about to build /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express
+ERR! error installing express@2.4.6 Error: Unsupported
+ERR! error installing express@2.4.6     at checkEngine (/usr/local/lib/node_modules/npm/lib/install.js:493:14)
+ERR! error installing express@2.4.6     at Array.0 (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+ERR! error installing express@2.4.6     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:13)
+ERR! error installing express@2.4.6     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:4)
+ERR! error installing express@2.4.6     at installOne_ (/usr/local/lib/node_modules/npm/lib/install.js:471:3)
+ERR! error installing express@2.4.6     at installOne (/usr/local/lib/node_modules/npm/lib/install.js:411:3)
+ERR! error installing express@2.4.6     at /usr/local/lib/node_modules/npm/lib/install.js:347:9
+ERR! error installing express@2.4.6     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:54:35
+ERR! error installing express@2.4.6     at Array.forEach (native)
+ERR! error installing express@2.4.6     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:54:11
+info unbuild /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express
+verbose from cache /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express/package.json
+info preuninstall express@2.4.6
+info installOne mime@1.2.4
+info installOne qs@0.3.1
+info unbuild /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express/node_modules/mime
+info unbuild /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express/node_modules/qs
+info uninstall express@2.4.6
+verbose unbuild express@2.4.6 [ false,
+verbose unbuild express@2.4.6   '/usr/local/lib/node_modules',
+verbose unbuild express@2.4.6   '/home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules' ]
+verbose binRoot [ '/home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/.bin',
+verbose binRoot   { express: './bin/express' } ]
+verbose from cache /home/sebastian/.npm/mime/1.2.4/package/package.json
+verbose from cache /home/sebastian/.npm/qs/0.3.1/package/package.json
+info postuninstall express@2.4.6
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express/node_modules'
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express/node_modules/___mime.npm'
+verbose mkdir done: /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express/node_modules/___mime.npm 755
+verbose mkdir (expected) error ENOENT, No such file or directory '/home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express/node_modules/___qs.npm'
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express/node_modules/mime
+silly gunzTarPerm modes [ '755', '644' ]
+verbose mkdir done: /home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express/node_modules/___qs.npm 755
+ERR! error rolling back express@2.4.6 Error: ENOTEMPTY, Directory not empty '/home/sebastian/ArbeitsDoku/Node/aceEdit/node_modules/express'
+verbose installOne cb express@2.4.6
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: connect@2.0.0alpha1
+ERR! Required: {"node":">= 0.5.0 < 0.7.0"}
+ERR! Actual:   {"npm":"1.0.93","node":"0.4.9"}
+ERR! 
+ERR! System Linux 2.6.38-11-generic
+ERR! command "node" "/usr/local/bin/npm" "install" "express"
+ERR! cwd /home/sebastian/ArbeitsDoku/Node/aceEdit
+ERR! node -v v0.4.9
+ERR! npm -v 1.0.93
+ERR! code ENOTSUP
+verbose exit [ 1, true ]
